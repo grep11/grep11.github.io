@@ -1,0 +1,501 @@
+/*
+Theme Name: Foundry Child
+Theme URI: 
+Description: Child theme for the Foundry theme
+Author: <a href="http://www.madeinebor.com">Tom Rhodes</a>
+Author URI: 
+Template: foundry
+Version: 1.0.17
+*/
+
+@import url('../foundry/style.css');
+
+
+
+
+body {
+font-size: 16px;
+font-weight: 400;
+}
+
+@media all and (max-width: 767px) {
+
+	p {
+		font-size:15px;
+	}
+}
+
+.texthome {
+font-size: 18px;
+font-weight: 700;
+line-height:28px;
+margin:0px !important;
+padding:0px;
+}
+
+.nopadding {
+padding: 0px !important;
+}
+.nomargin {
+margin: 0px !important;
+}
+.wpb_wrapper {
+margin: 0px !important;
+}
+
+.wpb_alert p:last-child, #content .wpb_alert p:last-child, .wpb_text_column p:last-child, .wpb_text_column *:last-child, #content .wpb_text_column p:last-child, #content .wpb_text_column *:last-child, .wpb_toggle_content p:last-child {
+    margin-bottom: 0px !important;
+}
+
+ul#listes li{
+padding-bottom: 10px !important;
+line-height: 1.3em !important;
+list-style: outside none;
+list-style-type: disc;
+}
+
+#1478013473614-5245971d-2d9b a{
+line-height: 200px;
+background-color:#CC0000 !important;
+}
+
+h1.home { 
+font-weight: 300;
+font-family: 'Roboto', sans-serif;
+font-size: 5.5vw;
+color:#288CC5;
+line-height:1.1;
+margin:0px !important;
+
+}
+
+h1.home-mobile { 
+font-weight: 400;
+font-family: 'Roboto', sans-serif;
+font-size: 10vw;
+color:#288CC5;
+line-height:1.1;
+margin:0px !important;
+}
+
+@media (min-width: 991px) {
+
+.rowmobilenone {
+display:none;
+padding: 0px;
+margin: 0px;
+}
+}
+
+@media (max-width: 991px) {
+
+.rowordinone {
+display:none;
+padding: 0px;
+margin: 0px;
+}
+}
+
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid > li {
+    margin-bottom: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #455560 !important;
+}
+
+h2 {
+    color: #455560 !important;
+    font-weight: 300;
+}
+
+h3.post {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding: 0;
+}
+
+h4.post {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0;
+font-size:20px !important;
+font-weight: bold;
+line-height: 25px;
+
+}
+
+.post-title h1 {
+  font-size: 35px;
+    line-height: 40px;
+}
+
+
+h4.mb8 {
+color: #288cc5 !important;
+}
+
+/* COULEUR BOUTON BLEU  */
+
+.vc_btn3.vc_btn3-color-blue.vc_btn3-style-outline {
+    background-color: transparent;
+    border-color: #288CC5 !important;
+    color: #288CC5 !important;
+}
+
+.vc_btn3.vc_btn3-color-blue.vc_btn3-style-outline.active, .vc_btn3.vc_btn3-color-blue.vc_btn3-style-outline:active, .vc_btn3.vc_btn3-color-blue.vc_btn3-style-outline:focus, .vc_btn3.vc_btn3-color-blue.vc_btn3-style-outline:hover {
+background-color: #288CC5 !important;
+border-color: #288CC5 !important;
+color: #FFF !important;
+}
+
+.vc_btn3.vc_btn3-size-md.vc_btn3-style-outline, .vc_btn3.vc_btn3-size-md.vc_btn3-style-outline-custom {
+    padding: 10px 15px;
+}
+
+/* COULEUR BOUTON GRIS FONCÉ  */
+
+.vc_btn3.vc_btn3-color-mulled-wine.vc_btn3-style-outline {
+    background-color: transparent;
+    border-color: #455560 !important;
+    color: #455560 !important;
+}
+
+.vc_btn3.vc_btn3-color-mulled-wine.vc_btn3-style-outline.active, .vc_btn3.vc_btn3-color-mulled-wine.vc_btn3-style-outline:active, .vc_btn3.vc_btn3-color-mulled-wine.vc_btn3-style-outline:focus, .vc_btn3.vc_btn3-color-mulled-wine.vc_btn3-style-outline:hover {
+background-color: #455560 !important;
+border-color: #455560 !important;
+color: #FFF !important;
+}
+
+/* Background title bar  */
+.bg-secondary {
+    background: #288CC5 none repeat scroll 0 0 !important;
+}
+
+.page-title-3, .page-title-4 {
+    height: 150px;
+}
+
+h3.uppercase {
+    color: #fff !important;
+}
+
+
+
+/* FOOTER  */
+footer {
+    padding: 20px 0;
+    border-top: 1px solid #CCC;
+}
+
+.back-to-top {
+    color: #455560 !important;
+background-color: #f5f5f5 !important;
+border:none !important;
+}
+
+ @media screen and (max-width: 750px) {
+   .back-to-top {
+   display:none;
+}
+}
+
+/* TABS Completed searches  */
+
+.vc_tta-color-grey.vc_tta-style-flat .vc_tta-tab.vc_active > a {
+    background-color: #288cc5 !important;
+    color: #fff !important;
+}
+
+.vc_tta-color-grey.vc_tta-style-flat .vc_tta-tab > a {
+    background-color: #e1e1e1;
+    color: #455560 !important;
+}
+
+.vc_tta-color-grey.vc_tta-style-flat:not(.vc_tta-o-no-fill) .vc_tta-panel-body {
+    color: #455560 !important;
+}
+
+.vc_tta-color-grey.vc_tta-style-flat.vc_tta-tabs .vc_tta-panels .vc_tta-panel-body {
+    background-color: #f5f5f5 !important;
+}
+
+.vc_tta.vc_general .vc_tta-panel-body {
+padding:0px !important;
+margin:0px !important;
+}
+
+.vc_tta-color-grey.vc_tta-style-flat .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::after, .vc_tta-color-grey.vc_tta-style-flat .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::before, .vc_tta-color-grey.vc_tta-style-flat .vc_tta-controls-icon::after, .vc_tta-color-grey.vc_tta-style-flat .vc_tta-controls-icon::before {
+    border-color: #288cc5 !important;
+}
+
+
+
+/* HEADER  */
+
+ @media screen and (max-width: 479px) {
+.logo {
+    max-height: 50%;
+}
+}
+
+/* NAVIGATION  */
+.menu > li > ul > li {
+    line-height: 16px !important;
+}
+
+.current-menu-parent a, .current-menu-item a {
+    color: #455560 !important;
+opacity: 1 !important;
+}
+
+.menu li a:hover {
+    color: #455560 !important;
+}
+
+.menu > li ul {
+    background: #e1e1e1 !important;
+}
+
+.menu > li > ul li a {
+    color: #292929;
+}
+
+.menu > li > ul > .has-dropdown::after {
+    color: #455560;
+}
+
+
+/* ACCORDION COULEUR BLEU */
+
+.vc_tta-color-blue.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-title > a {
+    background-color: #288cc5;
+}
+
+/* Page Featured jobs */
+
+.vc_custom_1480661037196 {
+padding-bottom: 45px !important;
+padding-top: 45px !important;
+}
+
+
+/* BLOG */
+ul.list-inline.mb16 {
+display:none;
+}
+
+.ti-user {
+display:none;
+}
+
+.post-snippet.mb64{
+margin-bottom:0px !important;
+}
+
+.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-latest-news {
+padding-bottom: 45px !important;
+padding-top: 45px !important;
+}
+
+div#recent-posts-2.widget.widget_recent_entries li{
+line-height:20px;
+padding-bottom:20px !important;
+}
+
+
+
+
+/* What sets us apart */
+
+.vc_toggle_title:hover {
+text-decoration: underline;
+}
+.vc_toggle_simple .vc_toggle_icon::after, .vc_toggle_simple .vc_toggle_icon::before {
+background-color:#455560;
+}
+
+.vc_toggle_simple .vc_toggle_title:hover .vc_toggle_icon::after, .vc_toggle_simple .vc_toggle_title:hover .vc_toggle_icon::before {
+    background-color: #288cc5;
+}
+
+.vc_toggle_title h4 {
+font-size:20px !important;
+}
+
+/* Featured Jobs */
+
+#dvSearchResultsContainer .posTitle {
+    padding: 20px 0px 5px 5px;
+}
+
+#dvSearchResultsContainer .postDate {
+    padding: 20px 5px 0px 5px;
+}
+
+#dvSearchResultsContainer #dvResults .postDate {
+    margin-top: 0px !important;
+}
+
+#dvSearchResultsContainer .spacer {
+    height: 20px;
+}
+
+
+/* CONTACT FORM */
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="date"], input[type="number"] {
+    margin-bottom:12px;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {
+margin-bottom: 10px !important;
+}
+
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
+font-size: 12px;
+letter-spacing: 1px;
+color: #455560 !important;
+opacity: inherit;
+}
+
+input textarea .wpcf7-textarea {
+font-size: 12px;
+letter-spacing: 1px;
+color: #455560;
+opacity: inherit;
+}
+
+*::-moz-placeholder {
+font-size: 12px;
+letter-spacing: 1px;
+color: #455560;
+opacity: inherit;
+}
+
+.halves input { 
+    width: 100% !important;
+}
+
+h1.uppercase.mb0 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 6px;
+    margin-right: -6px;
+    color: #fff !important;
+}
+
+/* Footer color*/
+
+.footer-1.bg-white {
+
+}
+
+/* bhevesh Css - 8-6-2022 */
+.nav-bar .logo {
+    max-height: 95px;
+	width: 407px;
+	
+}
+.menu {
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+input[type="submit"], button[type="submit"]{
+	border: 2px solid #0a3049;
+    background: #0a3049;
+}
+a {
+	color: #0a3049;
+}
+a:hover {
+    color: #04131c;
+    text-decoration: none;
+}
+.widget .title, .widgettitle{
+	 font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+input, button, select, textarea {
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.input-with-label span, label{
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.btn, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce a.added_to_cart, .cart_form{
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: 2px solid #0a3049;
+	color: #0a3049;
+}
+.btn:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce a.added_to_cart:hover, .tickera_checkout:hover, .cart_form:hover{
+	background: #0a3049;
+}
+.pagination li a:hover, .pagination li.active a, .pagination li.active:hover a {
+    background: #0a3049;
+    color: #fff;
+    border-color: #0a3049;
+}
+.custom-forms .checkbox-option .inner, .custom-forms .radio-option .inner{
+	    border: 1px solid #0a3049;
+}
+.custom-forms .checkbox-option, .custom-forms .radio-option{
+	border: 1px solid #0a3049;
+}
+.custom-forms .checkbox-option.checked .inner{
+	    background: #0a3049;
+}
+.post-title .label{
+	    background: #0a3049;
+}
+/* HEADER  */
+
+ @media screen and (max-width: 479px) {
+.nav-bar .logo {
+   /* max-height: 50%; */
+	    max-width: 300px !important;
+}
+	 .btn{
+		 padding: 0 15px;
+	 }
+}
+
+/*Contact Us Form*/
+.halves {
+	display: flex;
+	flex-direction: row;
+}
+.halves > span {
+	width: 100%;
+}
+.halves > span:first-child {
+	margin-right: 5px;
+}
+.halves > span:last-child {
+	margin-left: 5px;
+}
+@media (max-width: 767px){
+	.halves {
+		flex-direction: column;
+	}
+	.halves > span:first-child, 
+	.halves > span:last-child {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 12px;
+	}
+}
+/* recaptcha */
+.grecaptcha-badge {
+	bottom: 74px !important;
+}
+
+.menu li a {
+	font-size: 14px !important;
+}
+@media (max-width:767px) {
+	.post-template-default .page-title-4 {
+		height: 300px !important;
+	}
+}
