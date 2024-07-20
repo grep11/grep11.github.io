@@ -1,0 +1,955 @@
+/*
+Version: 1.7
+*/
+
+@media only screen and (max-width:1346px) {
+	.container-fluid { width: 100%; }
+	.thinking_icon_1 { left: -50px; }
+	.thinking_icon_2 {  right: -50px; }
+	.ultimate_chapter_2 .btn {  padding: 15px 38px;}
+	.guides_1:nth-child(3n+2) {   margin: 0px 23px 30px;}
+}
+@media only screen and (max-width:1290px) {
+	.article_tab, .guides_1{  width: 29.9%;}
+	.think_Sell .thinking_icon_2 {  right: -70px; }
+	.think_Sell .thinking_icon_1 { left: -70px; }
+	.advisor_img {  float: left;   width: 43%; background-position: center !important;}
+}
+
+@media only screen and (max-width:1259px) {
+	.banner_sec_2 {  padding-left: 0px;  position: relative;}
+	.bann_btn{width:auto;}
+	.high_filter .recent_1:nth-child(3n+2) { margin: 0px 10px 35px;}
+	.under_offer {  width: 105%; }
+	.right_busines_1 { width: 58.6%;}
+	.right_busines_2 .submit_form input[type='email'] {  width: 288px;}
+	.thinking_sec_1 h3 { width: 80%; }
+	.ecom_img {  width: 50px;  height: 50px; }
+	.side_content_2 {  padding: 57px 60px 85px; }
+	.side_content_1 {  padding-right: 25px; }
+	.follow_sec {  padding: 25px 15px;}
+	.single-content .recent_1 {  width: 330px;	}
+	.recent_1:nth-child(2) { margin: 0px 11px 30px;}
+    .process_sec_1:nth-child(2) {  margin: 0px 174px;}
+}
+@media only screen and (max-width:1206px) {
+	.thinking_icon_1 { left:5px; }
+	.thinking_icon_2 {  right: 5px; }
+	.partner_sec_1 { padding-left: 20px; padding-right: 20px;}
+	.video_tab_1 { width: 48.9%;}
+	.ultimate_guides_1 {  padding: 30px 20px 30px 20px;}
+	.accordian h3 span { padding-right: 10px; }
+	.comment-form input[type=submit] {  padding: 24px 30px; }
+	.busines_inform_2 {  margin-left: 57px; }
+	.content_box { padding: 36px 5px !important; }
+}
+@media only screen and (max-width:1106px) {
+	.container{width:100%; }
+	.process_sec{padding:110px 0px;}
+	.process_sec_1:nth-child(2) {  margin: 0px 175px;}
+	.partner_sec_1 { padding-left: 15px; padding-right: 15px; }
+	.partner_img { padding-top: 25px; }
+	.partner_1 { padding: 50px 25px 2.4rem; }
+	.busines_inform_2 {  margin-left: 60px; }
+	.inform_revenue ul li {  margin-right: 50px;}
+	.single_business ul li { margin: 0; }
+	.advisor_text {  width: 53.2%; }
+	.advisor_btm_1 {  width: 41%;}
+	.think_Sell_2 { margin-left: 59px;}
+	.content_box .submit_form input[type='email'] { width: 77%;}
+	.follow_sec { padding: 13px 3px;}
+	.side_content_2 { padding: 57px 25px 85px;}
+	.side_filter ul {  width: 90%;}
+	.side_filter ul li {   margin-right: 7px;     margin-bottom: 10px;}
+	.latest_1:nth-child(2) {  margin: 0px 17px;}
+	.latest_img_1 { margin: auto; margin-top: -11px;}
+	.popular_update .latest_1:nth-child(3n+2) { margin: 0px 17px 30px;}
+	.brokerage_Sec_2 input[type='email'] { width: 86%; }
+	.brokerage_Sec_1 { width: 56%;	}
+	.brokerage_Sec_2 input[type='email'] { width: 82%;}
+	.side_content_1 {  padding-right: 10px;}
+	.price strike {   padding-right: 12px;}
+	.content_box { padding: 36px 7px !important; }
+}
+@media only screen and (max-width:1079px) {
+	.meet_team_1 h3 { font-size: 2.4rem;}
+	.meet_team_1 { width: 46%; padding-right: 35px; }
+	.meet_team_2 { width: 54%;}
+	.process_sec:before { top: -80px; }
+	.process_sec_1:nth-child(2) { margin: 0px 161px;}
+	.recent_1:nth-child(2) {  margin: 0px 10px 30px;}
+	.partner_sec_1 h3 { font-size: 2.2rem; }
+	.bottom_sec_2 { margin-right: 28px;}
+	.weather_video { width: 45%; }
+	.guide_sec_main { width: 100%;}
+	.podcast_tab_2 { width: 75%;  padding-left: 10px;}
+	.single-content .recent_1 {
+    width: 310px;
+}
+}
+
+@media only screen and (max-width:1023px) {
+	.team_1 p {  font-size: 1.1rem; letter-spacing: 1.1px; }
+	.process_sec_1:nth-child(2) { margin: 0px 155px;}
+	.footer_1 { width: 67%;}
+	.footer_2 { width: 33%;}
+	.footer_btm_1 { width: 72%; }
+	.footer_social {  width: 28%;}
+	.busines_inform_2 {  margin-left: 58px;}
+	.advisor_text {  width: 57%;}
+	.advisor_text {  padding: 68px 38px 35px;}
+	.think_Sell_2 {  margin-left: 57px;}
+	.single-content .recent_1 { width: 300px;}
+.brokerage_Sec_2 input[type='text'] { width: 86%; }
+}
+@media only screen and (max-width:991px) {
+	.about_container {display: flex; flex-direction: column-reverse;}
+	.side_content_1.about_sidebar {width: 100%;}
+	.bann_btn{width:100%; }
+	.meet_team_1 h3 { font-size: 2.2rem;  line-height: 2.8rem;}
+	.meet_team_1 h3 br{ display:none; }
+	.team_slider .slick-list {  padding-left: 77px !important;}
+	.meet_team_1 {  width: 40%; padding-right:18px;}
+	.meet_team_2 { width: 60%;}
+	.team_slider.slick-initialized .slick-slide.slick-current > .team_1 { margin-left: -74px; }
+	.team_1 { padding: 27px 20px 27px 27px; }
+	.team_slider .slick-prev:before { left: 20px; }
+	.team_slider .slick-next:before { right: -10px; }
+	.team_btn {  width: 100%;}
+	.contact-btn {  margin-left: 20px;}
+	.banner_sec_1 {   padding-right: 15px;}
+	.hm_feature ul {  padding:30px 10px; }
+	.hm_feature ul li {   width: 18%;}
+	.process_sec_1 { width: 26%; }
+	.process_sec_1:nth-child(2) { margin: 0px 75px;}
+	.recent_1 { width: 32%;  padding: 25px 20px;}
+	.ecom_img {  width: 45px;  height: 45px; }
+	.ecom_img img {  width: 40px;}
+	.recent_ecom p {  padding-left: 10px;}
+	.price strike, .price strong{ font-size: 2rem; padding-right: 5px;}
+	.price a img {  width: 80px; }
+	.selling_head {  width: 70%; }
+	.step_2 { padding-left: 2rem;}
+	.step_main_2 .step_2{padding-right: 2rem;}
+	.step_2 h3 {  width: 70%; }
+	.step_main_3 { padding: 84px 0px 30px;}
+	.partner_slider .slick-next:before { right: -15px; }
+	.partner_slider .slick-prev:before { left: -15px; }
+	.thinking_sec_1 {  width: 80%; }
+	.thinking_sec_1 h3 { width: 70%; }
+	.thinking_icon_1 {  bottom: -55px;}
+	.bottom_sec_2 {  margin-right: 21px;}
+	.bottom_sec_1 {padding-right: 40px;  padding-top: 0;}
+	.footer_1 { width: 56%;}
+	.footer_2 { width: 44%;}
+	.footer_btm_1 {  width: 75%;}
+	.footer_social{width:25%; }
+	.footer_btm_1 ul { width: 64%;}
+	.footer_btm_1 ul li { padding-left: 0.8rem;}
+	.weather_video { width: 48%;}
+	.reason_sec_2 { padding-left: 2.5rem;}
+	.sell_business_1:nth-child(3n+2) {  margin: 0px 40px;}
+	.luxury_sec_2 {  padding: 70px 60px;}
+	.guide_2 {  padding-right: 35px;}
+	.guide_sec_main .business_btn p {  width: 50%; }
+	.advisor_text {  padding: 36px 30px 30px;}
+	.advisor_btm {  padding-top: 20px;}
+	.inform_revenue ul li {  margin-right: 31px;}
+	.single_business ul li { margin: 0; }
+	.inform_price p{padding-right:10px;}
+	.busines_inform_2 {  margin-left: 43px;}
+	.busines_inform_text {   width: 100%;}
+	.saas_busines h3 { font-size: 35px;     width: 54%;}
+	.inform_price h4 {font-size: 29px;  padding-bottom: 40px;}
+	.advisor_btm_2 { width: 195px;}
+	.advisor_btm_2 .btn { padding: 15px 20px; }
+    .verticalTab.resp-vtabs .resp-tabs-container { width: 53%;}
+	.think_Sell_1 { width: 59%;}
+	.think_Sell_2 { margin-left: 30px;  width: 35.5%;}
+	.think_Sell_2 .btn {  padding: 21px 15px; }
+	.side_content_1 { width: 35%;}
+	.side_content_2 {  float: left; width: 65%;}
+	.side_filter ul { width: 84%;}
+	.side_filter p{vertical-align:top; }
+	.latest_1 {  width: 46%;}
+	.latest_1:nth-child(2), .popular_update .latest_1:nth-child(3n+2), .guides_1:nth-child(3n+2) {  margin: 0px ;}
+	.guides_1{margin-bottom:30px;}
+	.latest_1{margin-bottom:20px; }
+	.latest_1:nth-child(odd),.popular_update .latest_1:nth-child(odd) { margin-right: 27px;}
+	.video_tab_1, .article_tab , .guides_1{ width: 48.3%;}
+	.video_txt, .articles_busines_1 , .guides_sec{  padding-right: 0;}
+	.ultimate_chapter_1 , .ultimate_chapter_2{  width: 100%;}
+	.ultimate_chapter_1 {padding-bottom:10px; }
+	.ultimate_chapter {  padding-top: 20px;}
+	.accordian h3:after { right: -5px; }
+	.ultimate_desc h3 {  font-size: 25px; line-height: 35px;}
+	.radio_form .form-sec, .form-sec { width: 80%;}
+	.radio_form_1 .form-sec ul li:nth-child(3n+2) { margin: 0px 10px;}
+	.form-sec .box span { font-size: 17px; line-height: 25px; }
+	.weather_sec_1 .radio_form .form-sec ul li{width:41.3%; }
+	.single-content .recent_1 {   width: 290px;}
+	.right_busines_2 .submit_form input[type='email'] {  width: 228px;}
+	.right_busines_2 .submit_form input[type="submit"] {  width: 80px;}
+	.recent_1 h5 {  font-size: 1.1rem; }
+	.brokerage_Sec_2 input[type='text'] { width: 253px; }
+	.search_icon input[type="text"]:focus {  width: 325px;	}
+	.comment-form .comment-form-email, .comment-form .comment-form-cookies-consent {  width: 55%;	}
+	.comment-form .form-submit {  margin-bottom: 73px;}
+	.learnpage .post-type p {
+		margin-right: 5px;
+	}
+	.learnpage .post-type label {
+		padding: 6px 8px;
+		margin-right: 5px;
+	}
+}
+
+	@media only screen and (max-width:958px) {
+		.single-content .recent_1 { width: 226px;  }
+
+		.ref_container {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.referral_sidebar {
+			width: 100%;
+			padding: 0 0 4% 0;
+			order: 2;
+		}
+
+		.questions-wrapper {
+			margin-top: 25%;
+		} 
+
+		.hight_quality_sec {
+			padding-bottom: 50px;
+		}
+
+		.single-content .recent_1 {   width: 270px;}
+
+		.referral_guid .step_section {
+			flex-direction: column;
+		}
+
+		.busines_inform_2 {
+			width: 100%;
+		}
+
+		.order1-step  {
+			margin: 0;
+		}
+
+		.step_section {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.order1-step, .order2-step {
+			max-width: 100%;
+			order: 2;
+			margin-top: 3%;
+		}
+		
+		.order1-step, .order2-step h6 {
+			text-align: center;
+		}
+		
+		.referral_2 .busines_inform_2.referral_form {
+			margin: 0;
+		}
+		
+		.referral_2 h3 {
+			width: 100%;
+			text-align: center;
+		}
+		.step1-icon {
+			text-align: center;
+		}
+		
+		.order2-step {
+			margin-right: 0;
+		}
+	}
+	@media only screen and (max-width:1200px) {
+
+		div.inline-cta {
+			flex-direction: column;
+		}
+
+		div.cta-button {
+			width: auto;
+			position: static;
+			padding-bottom: 3%;
+		}
+
+		div.inline-cta a.btn {
+			margin: 0;
+		}
+
+		div.container.inline-cta div.cta-text {
+			margin-right: 0;
+			width: 100%;
+			padding-top: 3%;
+		}
+	}
+
+	@media only screen and (max-width:900px) {
+		.single-content .recent_1 {   width: 253px;}
+		.referral_sidebar {
+			order: 2;
+		}
+	}
+	@media only screen and (max-width:900px) {
+		.single-content .recent_1 {   width: 253px;}
+		.footer_social ul li {
+			padding-left: 10px;
+		}
+		.footer_btm_1 ul {
+			width: 66%;
+		}
+	}
+	
+@media only screen and (max-width:850px) {
+	.team_slider .slick-list {  padding-left: 55px !important;   }
+	.meet_team_1 {  width: 40%; padding-right:18px;} 
+	.meet_team_2 { width: 60%;}
+	.team_slider.slick-initialized .slick-slide.slick-current > .team_1 { margin-left: -54px;     margin-bottom: 27px;}
+	.team_1 { padding: 27px 20px 27px 27px; }
+	.team_1 p { font-size: 1rem; }
+	.video_tab_1, .article_tab{width:100%; display:block; }
+	.article_tab  img{width:100%; display:block;}
+	.follow_sec ul li {   padding-bottom: 26px;}
+	.single-content .recent_1 { width: 237px;     min-height: 450px;}
+	.luxury_sec_7 {
+		display: flex;
+		margin-top:13%;
+		justify-content: space-between;
+	}
+	.luxury_sec_7 h4 {
+		padding-top:13%;
+		line-height: 15px;
+		font-size: 1.1rem;
+		color: #2478dc;
+	}
+	.luxury_view_container {
+    	margin-left:5%;
+	}
+	.luxury_sec_7 p{
+		color: rgba(28, 39, 79, 0.8);
+		padding:0;
+		padding-top:3%;
+		font-size: 14px !important;
+		font-weight: 700;
+		line-height: 25px !important;
+	}
+	.footer_btm_1 ul li  {
+		padding-left: 0.3rem;
+	}
+	.footer_social ul li {
+		padding-left: 5px;
+	}
+}
+
+@media only screen and (max-width:800px) {
+
+}
+@media only screen and (max-width:767px) {
+    #downloadform {padding-left:0; width: 100%;}
+    #downloadguideintro {width: 100%;}
+	.single-advisor .advisor-photo {float: none !important; padding-left: 0 !important; text-align: center;}
+	.single-advisor .tab-heading {display: none;}
+	.advisors_vis.advisor_main .single-slide .slick-slide{ height: 100%;}
+	.footer .container {padding-left: 15px; padding-right: 15px;}
+	.recent_1 .recent_ecom { text-align: left; position: initial; }
+	.high_filter .recent_ecom { text-align: left; position: initial; }
+	.logo {width: auto;max-width: 180px;position:  relative;z-index:  9999;}
+	.logo img {width: 100%;}
+/***********toggle_menu_start***************/
+	.nav-icon{display:block;     top: 23px;}
+	.nav-icon.open:before{display:none;}
+	body.open{overflow-y:hidden;}	
+	.nav_bg { position: absolute;     right: 0; top: 0; border: 0;}	
+	.open nav {display:block; padding:25px 20px;     border-radius: 0px 0px 8px 8px; }
+	header nav {display:none; position: fixed;top:84px;left:0;width: 100%; right: 0;float: none;z-index: 9999;background: #ffffff;transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;overflow: auto;}
+	.inform_price p {text-align: justify;}
+	.liststatus-alert {text-align: center;}
+.logged-in .header nav {  top: 140px;}
+	nav ul {width: 100%;max-width: 100%;  display: block; justify-content: normal;}
+	nav ul li {    display: block;  float: none;  padding: 10px 0px;  margin: 0;     text-align: center;}
+	.arrow{ color:#0a0028; }
+	.arrow:hover, .arrow.active{  color:#0a0028; }
+	nav ul li a {display: inline-block;     font-size: 22px;  line-height: 30px; position: relative;     z-index: 999999;}
+	nav ul li a:after, nav ul li ul:before{display:none;}
+	nav > ul > li > ul > li {border: none; padding: 0px; padding:10px 15px;}
+	nav > ul > li > ul > li:after {display: none;}
+	.nav_bg ul li ul li:last-child{padding-bottom:0px;}
+	nav ul{margin:0px;}
+	.sub-menu {width: 100%;display: block;}
+	.sub-menu ul{border:0px;}
+	.sub-menu {position: static;opacity: 1;visibility: visible;display: none;transition: none;-o-transition: none;-webkit-transition: none;-ms-transition: none;-moz-transition: none;background: none;}
+	nav ul {float:none; display: block; }
+	nav > ul > li > ul > li a { font-size: 20px; color:#0a0028;}
+	.click_menu {  width: 15px; height: 15px; position: absolute;  right: 10px; cursor: pointer; top: 12px; border-style: solid; cursor: pointer;  transform: rotate(45deg);  border-width: 0 3px 3px 0;  padding: 6px; background-position: right; z-index: 999; }
+	.open2 > .click_menu { transform: rotate(-135deg); top: 22px;   background-position: left;}
+	ul.topmenu li .sub-menu {  position: relative;  width: 100%; top: 0; left:0;}
+	ul.topmenu li .sub-menu { opacity: 1; z-index: 99;   transition: all 0.3s; }
+	ul.topmenu li .sub-menu li { display: block; text-align: left;  width: 100%; padding: 6px 15px;}
+	ul.topmenu li.open2 > ul.sub-menu{    display: block;       transition: all 0.3s;}
+	.topmenu ul {margin-left:0; display:none;}
+	.blue_header .nav-icon span{background: #ffffff;}
+	.inner_header .nav-icon span{background: #ffffff;}
+	.nav-icon span { background: #7edd17; }
+	.blue_header nav ul li a { color: rgba(28, 39, 80, 0.5);}
+	.contact-btn, .search_icon{display:none;}
+	nav ul li.contact-btn { display: block; margin:0px;}
+	.header { padding: 12px 0px; box-shadow: 0 1px 25px 0 rgba(28, 39, 80, 0.13);     z-index: 9999; position:absolute; width:100%; left:0; right:0;  }
+	.banner_sec_1{float:none; width:100%; padding:0px; padding-top:15px; text-align:center;}
+	.banner_sec_1 p span { display: inline;}
+	.banner_sec_2{width:100%; float:none; text-align:center; padding:30px 0px;}
+	.bann_btn { text-align: center;}
+	.hm_feature {  padding: 55px 0px;}
+	.banner_sec{padding:120px 0px 45px;}
+	.hm_feature ul { display: block;     text-align: center;     padding: 20px 0px;}
+	.hm_feature ul li {  width: 20%; display: inline-block; vertical-align: middle;  margin: 0px 5px 15px;}
+	
+	.meet_team_1{width:100%; text-align:center; padding-right:0px;}
+	.meet_team_2{width:100%; padding:0px;}
+	.team_slider.slick-initialized .slick-slide.slick-current > .team_1 {   margin-left: 0;}
+	/* .team_slider .slick-list{padding-left:0px !important; height:auto !important;} */
+	/* .team_slider .slick-next, .team_slider .slick-prev{display:none !important; } */
+
+	/*.team_slider.slick-initialized .slick-slide{padding-left:0px; width:100% !important;}
+	.team_slider.slick-slider .slick-track{height:auto !important; transform:none !important; padding-top:25px !important;}
+	.team_slider.slick-initialized .slick-cloned{display:none !important;}
+     .team_slider div:nth-child(4){display:none;} */
+     	.team_btn{text-align:center; margin-top:30px;}
+     	.team_slider .slick-prev:before{left:0;}
+     	.team_slider .slick-next:before {
+    right: 0;
+}
+     .team_slider .slick-next { top: auto;   right: 38%; bottom: -32px;}
+      .team_slider .slick-prev { top: auto; left: 38%; bottom: -32px;}
+     .team_slider .slick-list, .team_slider.slick-initialized .slick-slide{padding-left:0px !important; }
+	.process_sec_1 {  width: 100%; display: block; }
+	 .recent_1 {  width: 360px; margin:0 auto; display: block; }
+	.process_sec_1:nth-child(2){  margin: 30px 0px;}
+	.recent_1:nth-child(2){  margin: 30px auto;}
+	.process_text h4 br{display:none; }
+	.selling_head{width:100%; }
+	.step_1, .step_2{width:100%; float:none; padding-left:0px;     text-align: center;}
+	.step_main_2 {  padding:20px 0px;}
+	.step_main_1 {   padding-bottom: 20px;}
+	.step_main_2 .step_1 {  float: none; padding-top: 20px; }
+	.step_main_3 { padding: 30px 0px;}
+	.step_2 h3 , .thinking_sec_1 h3{   width: 100%;}
+	.partner_sec_1{text-align:center;}
+	.partner_sec_1, .partner_sec_2{width:100%; display:block;}
+	.partner_slider .slick-prev { left: 30px;}
+	.partner_slider .slick-next { right: 30px;}
+	.partner_1 { width: 100%;    margin: 5px; }
+	.thinking_sec_1{width:100%;}
+	.thinking_sec { padding: 100px 0px; overflow:hidden;}
+	.thinking_icon_1 { bottom: auto;  top:-120px;     left: -30px;}
+	.thinking_icon_2{top:auto;}
+	.bottom_sec_1{width:100%; float:none; text-align:center; padding:0px; padding-bottom:30px;}
+	.bottom_sec_2{margin:0px; text-align:center; width:100%;}
+	.bottom_sec_2 img {  margin: 0 auto;}
+	.submit_form input[type='email'] {  width: 250px;}
+	.footer_top { text-align: center; }
+	.footer_1, .footer_2{width:100%; }
+	.footer_2 { padding-top:20px;}
+	.footer_2 form { width: 303px; margin: 0 auto; }
+	.footer_btm_1 img, .bottom_sec_1 span{display:none; }
+	.footer_logo{display:block; width: 100%;  padding-top: 20px; text-align:center;  }
+	.footer_btm_1, .footer_btm_2, .footer_social{width:100%;     float: none;}
+	.footer_btm_1 ul, .footer_social ul{display:block; width:100%; text-align:center;   }
+	.bottom_sec_1 .submit_form { width: 311px; margin: 0 auto;}
+	.bottom_sec_1 .submit_form { width: 280px; }
+	.business_btn .btn {  padding: 23px 18px;}
+	.guide_sec_main .business_btn .btn {padding: 23px 10px;}
+	.footer_1 h5 { font-size: 1rem; }
+	.banner_sec_1 h1 {  font-size: 2.5rem; line-height: 48px; }
+	.bann_btn .btn { padding: 1.5rem 14px;}
+	.wonder_btn .btn {  padding: 1.33rem 10px;}
+	.guide_head{width:100%;}
+
+	.desk_step{display:none;}
+	.def_page .desk_step {display: inherit;}
+	.read-more, .read-more__link {    display: inline-block; }
+	.team_1{position:relative;     margin-bottom: 40px;}
+	.team_1 img { position: absolute;  left: 0; right: 0; margin: 0 auto; top: -25px;}
+	.weather_video { width: 100%;     text-align: center;}
+	.weather_video_2 {  width: 77%;  padding-left: 8px;}
+	.step_main_2 .step_2 { padding-right: 0rem;}
+	.weather_head h3 , .sell_business_head h3,.guide_head h3{ font-size: 2.1rem;}
+	.reason_sec_1{width:100%; float:none; padding-bottom:15px; }
+	.reason_sec_2{padding:0px; width:100%; float:none; text-align: justify;}
+	.reason_sec_2 p {padding-right: 0;}
+	.sell_business:before { top: -70px;}
+	.sell_business_head p{width:100%; }
+	.inner_header nav ul li a { color: rgba(28, 39, 80, 0.5);}
+	.sell_business_1:nth-child(3n+2){margin:0px; margin-bottom:25px; }
+	 .sell_business_1{width:100%; float:none; margin-bottom:25px; text-align:center; }
+	 .luxury_sec_1{width:100%;  float:none; padding:0px; display:none; }
+	 .luxury_sec_2{width:100%;  float:none;     padding: 50px 25px;}
+	 .guide_1, .guide_2{float:none; width:100%; padding:0px; text-align:center; }
+	 .guide_2{padding-top:30px; }
+	 .guide_2 h4 {text-align: left;}
+	 .guide_2 p {text-align: justify;}
+	 .guide_sec_main .business_btn p{width:100%; }
+	 .wondering_sec_1{width:100%; float:none; padding-right: 15px; padding-left: 15px;}
+	 .wondering_sec_1:nth-child(even) {margin-left:0px; padding:0; padding-right: 15px; padding-left: 15px;}
+	 .advisor_sec{padding:40px 0px; }
+	 .advisor_head{width:100%; }
+	 .advisor_img{width:100%; min-height: 350px; width: 100%;}
+	 .advisor_text{width:100%; }
+	 .advisor_btm {  padding-top: 25px;}
+
+	.advisor_btm_1 { float: none;  width: 100%; padding-bottom: 10px;}
+	.wondering_sec{padding-bottom:30px;}
+	/* .advisor_main .slider-nav{ display:none; } */
+	.advisor_text {  padding: 46px 20px 35px;}
+	.luxury_sec .container{display:block;}
+	.luxury_sec_2 p { line-height: 32px; font-size: 1.2rem;}
+	.luxury_sec_2 .luxury_sec_1{display:block; margin-top:25px; }
+	.luxury_txt p { font-size: 0.8125rem;     line-height: 21px; padding:0px;}
+	.luxury_sec_2 .luxury_sec_1 img{     display: inline-block;  width: 104px; margin:0px; padding:0px; }
+	.luxury_txt{display: inline-block; width: 69%;     padding-left: 6px;}
+	.high_filter .recent_1:nth-child(3n+2){margin: 0px; margin-bottom:25px; }
+	.high_filter .recent_1{margin-bottom:25px; }
+	.under_offer {width: 100%; left:0px; }
+	.right_busines_1{ display:block; width:100%; margin-bottom:30px; 	}
+	.right_busines_2{display:block; width:100%; }
+	.hight_quality_sec {padding-top:130px; }
+	.filter_head ul {  width: 85%;}
+	.filter_head p{vertical-align:top; }
+	.filter_head ul li { vertical-align: top;  margin-right: 6px; margin-bottom: 10px;}
+	.hight_quality_head p{width:100%; }
+	.right_busines_text{width:100%; padding:0px; padding-top:15px;}
+	.white_header .logo {  width: 180px;}
+	.saas_busines{padding-top:120px; padding-bottom:34px;}
+	.busines_inform_1{width:100%;}
+	.busines_inform_2{width:100%; margin:0 0 20px 0; }
+	.what_proces_1, .what_proces_2{width:100%; display:block;}
+	.what_proces_2{ padding: 50px 25px 50px;}    
+	.think_Sell_1{width:100%;  margin-bottom:15px; }
+	.think_Sell_2{width:100%; margin:0px; }
+	.think_Sell_2 .btn, .recent_buy_btn .btn{display:inline-block; }
+	.what_proces_head{width:100%; }
+	.recent_buy_btn{width:100%; text-align:center;}
+	.side_content_1 { width: 100%; padding-right:0px; padding-top: 20px}
+	.side_content_2 { width: 100%; border:0px;     border-top: 2px solid #ddd;  padding: 50px 0px;}
+	.side_filter ul {  width: 80%;}
+	.brokerage_Sec_1{padding-bottom:20px; }
+	.brokerage_Sec_1, .brokerage_Sec_2{ width:100%; padding-right:0px; text-align:center; }
+    .brokerage_Sec_2 .submit_form {  width: 306px;  margin: 0 auto;}
+	.video_tab_1, .guides_1{width:100%; display:block;}
+	.video_tab_1:nth-child(odd) {  margin-right: 0px;}
+	h2.resp-accordion {  margin-bottom: 10px;     border: 1px solid #c1c1c1; }
+	.guides_1{text-align:center; margin-bottom:20px; }
+	.guides_1:nth-child(3n+2){margin:0px; margin-bottom:20px;}
+	.guides_sec {padding-right:0px; }
+	.ultimate_desc{width:100%; padding-left:0px; }
+	.podcast_tab_2{width:100%; }
+	.form-sec .form-group{width:100%; }
+	.form-sec .form-group.fl-r{float:none; }
+	.form-sec, .radio_form .form-sec, .radio_form_1 .form-sec ul li, .weather_sec_1 .radio_form .form-sec ul li{width:100%;}
+	.weather_form .form_buton input[type=submit] { width: 90%; }
+	.form-sec ul li{width:100%; margin:0px; margin-bottom:15px; }
+	.radio_form_1 .form-sec ul li:nth-child(3n+2){margin:0px; margin-bottom:15px; }
+
+	.single-content .recent_1 {  width: 350px; margin: 0 auto; min-height:auto; margin-bottom:30px; }
+	.high_filter .recent_main { width: 350px;  margin: 0 auto;}
+	.saas_busines h3{width:100%; text-align:center;}
+	.comment-list li:before { left: -5px;	}
+	.articles_busines_3 .comment-meta {   padding-left: 8px; }
+	
+	.drodwn {position: static;opacity: 1;visibility: visible;display: none;transition: none;-o-transition: none;-webkit-transition: none;-ms-transition: none;-moz-transition:
+	none;background: none;}
+	.side_filter, .filter_head, .get_content{position:relative; background: none; padding: 0 10px;}
+	.side_filter ul, .filter_head ul, .get_content ul { margin-left: 0; display: none; padding-left:0px;} 
+	.get_content.open2 {background: none;}
+	.get_content  {background: none;}
+    .click_menu {  width: 15px;  height: 15px;  position: absolute;  right: 14px; top: 8px;  border-style: solid;   cursor: pointer; transform: rotate(45deg);  border-width: 0 3px 3px 0;
+    padding: 6px;   background-position: right;  z-index: 999;}
+	.open2 > .click_menu { transform: rotate(-135deg); top:15px;   background-position: left;}
+	.side_filter .drodwn, .filter_head .drodwn, .get_content .drodwn {  position: relative;  width: 100%; top: 0; left:0;  opacity: 1; z-index: 99;   transition: all 0.3s;}
+	.filter_head .drodwn li, .get_content .drodwn li {
+		display: block;
+		width: 100%;   
+	}
+	.side_filter.open2 > ul.drodwn, .filter_head.open2 > ul.drodwn , .get_content.open2 > ul.drodwn{   display: block;       transition: all 0.3s;     padding-top: 10px;}
+    .get_content h4 {  padding-bottom:0px; }
+    .get_content.open2 > .click_menu {top: 14px;}
+   .get_content .click_menu { top: 14px; }
+   
+   .logged-in .saas_busines { padding-top: 170px; }
+   
+
+.side_filter .drodwn li.current-menu-item, .post-type-archive-video .drodwn li.video_menu, .post-type-archive-guide .drodwn li.guide_menu, .single .drodwn li.article_menu.current_page_parent {
+    background: #1c2750;
+}
+.meet_team {   padding-bottom: 50px; }
+.process_sec{padding-top:40px; padding-bottom:70px;}
+.team_1{padding-top:48px;}
+.process_img{margin:0 auto; margin-bottom:30px; }
+.process_sec_1{text-align:center;}
+.recent_win {
+    padding: 65px 0px;
+}
+.seling_sec {
+    padding: 30px 0px 75px;
+}
+.partner_sec {
+    padding: 85px 0px 110px;
+}
+.team_slider .slick-list {  padding-top: 28px;}
+.team_slider .slick-list {
+ height:523px !important;
+}
+.gf_simple_horizontal {
+	width: 100% !important;
+}
+@media screen and (max-width: 767px) {
+
+	.team_slider {
+		/* height:420px !important; */
+		display: none;
+	}
+
+	.team_slider_mobile {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	
+	.meet_team_2 .slick-arrow {
+        display: none !important;
+    }
+	
+	.gf_simple_horizontal {
+		margin: 0 auto !important;
+		width: calc(100% - 16px) !important;
+	}
+	.gfield {
+		padding: 0 !important;
+	}
+	.gform_button {
+		margin: 0 !important;
+	}
+
+	.brokerage_Sec_2 input[type="submit"] {
+		position: absolute;
+		right: 11%;
+	}
+
+	input.js-wpv-filter-trigger-delayed.form-control{
+		width: 71%;
+		position: absolute;
+		left: 10%;
+	}
+
+	.weather_sec {
+    	height: calc(100vh + 90px) !important;
+    	padding: 90px 0 0 0 !important;
+	}
+
+	#msform fieldset {
+    	left: 0 !important;
+	}
+
+	.advisor_main .mini-list {
+		padding-left: 25px;
+	}
+
+	.advisor_main .single-slide .slick-slide {
+		transition: opacity 1s ease-out;
+		opacity: 0;
+		height: 0;
+		overflow: hidden;
+	}
+	.advisor_main .single-slide .slick-slide.slick-active {
+		opacity: 1;
+		height: auto;
+	}
+
+	#progressbar {
+		margin: 0 auto !important;
+	}
+
+	.reason_sec {
+		padding: 30px 0 120px 0;
+	}
+
+	.weather_form .weather_sec {
+		min-height: 1070px;
+	}
+}
+
+.ultimate_guides_1, .content_box h5{text-align:center;}
+.ultimate_img {
+    width: 100%;
+}
+.follow_sec ul{width:240px; margin:0 auto;}
+.ultimate_img img {width:174px; margin:0 auto;}
+.content_box .submit_form input[type='email'] {  width:80%;}
+.content_box .submit_form {    width: 276px;  margin: 0 auto; padding-bottom:0px;}
+
+.busines_inform {
+    padding: 40px 0px;
+}
+.inform_revenue {
+    padding-bottom: 40px;
+}
+.inform_price h4 { padding:0px;
+ padding-bottom: 15px; 
+}
+.verticalTab.resp-vtabs ul.resp-tabs-list{display:none;}
+
+.verticalTab.resp-vtabs .resp-tabs-container{background:transparent;  width:100%;}
+.verticalTab h2.resp-accordion {  display: block;  background: #fff;     color: #1C2750;
+    font-weight: 700;
+    font-size: 16px; }
+.verticalTab.resp-vtabs .resp-tab-content{ background: #fff;}
+.what_proces_2{box-shadow:none;}
+.podcast_tab_main {  display: flex; }
+.podcast_tab_1 {  width: 80px;}
+.podcast_tab_2 {  padding-left: 14px;}
+.recent_1 h5 {
+    font-size: 1.2rem;
+}
+.ecom_img {
+    width: 35px;
+    height: 35px;
+}
+.ecom_img svg{width:38px;}
+.right_busines_2 .submit_form {
+	width: 300px;
+	margin:0 auto;
+	max-width: 100%;
+}
+.recent_ecom p{width:auto;}
+
+.logged-in .hight_quality_sec {
+    padding-top: 165px;
+}
+.logged-in .banner_sec {
+    padding: 145px 0px 45px;
+}
+.follow_sec {
+    padding: 13px 0px 40px;
+}
+.get_content h4, .side_filter p.filt_text, .high_filter .filter_head > p{cursor:pointer; display:block;}
+.follow_sec ul li i {   width: 30px; margin:0px;}
+.brokerage_Sec_2 .submit_form input[type="submit"] {
+width: 53px;
+} 
+.content_box .submit_form input[type="submit"]{ width: 55px;} 
+.comment-form .comment-form-email, .comment-form .comment-form-cookies-consent {  width: 100%;	float:none;}
+	.comment-form .form-submit {    margin: 15px 0px;	float:none;}
+}
+
+@media screen and (max-width: 479px) {
+	.filter_head ul {  width: 76%;  padding-left: 8px;}
+	.right_busines_2 .submit_form input[type='email'] { width: 201px;}
+	.right_busines_2 .submit_form input[type="submit"] { width: 90px;}
+	.latest_1{width:100%; margin-bottom:20px;  }
+	.latest_1:nth-child(odd), .popular_update .latest_1:nth-child(odd),.latest_1:nth-child(2), .popular_update .latest_1:nth-child(3n+2){margin:0px; margin-bottom:20px; }
+	.submit_form input[type='email'] { width: 250px; outline: none; }
+	.side_filter ul {  width: 78%;}
+	.form-sec, .radio_form .form-sec{width:100%; }
+	.form_confirm .form_buton input[type=submit]{width:100%; }
+	.verticalTab.resp-vtabs ul.resp-tabs-list, .verticalTab.resp-vtabs .resp-tabs-container {  width: 100%; }
+	.busines_inform_2 {    padding: 60px 15px 40px; }
+	.verticalTab.resp-vtabs .resp-tabs-list li {  font-size: 16px; letter-spacing: 1.12px; }
+	.recent_buy_head h4 { font-size: 30px;	}
+	.what_proces_head h3 {  font-size: 34px; }
+	.brokerage_Sec_2 input[type='text'] { width: 218px;  padding: 8px 1.1rem 9px 21px;}
+	.accordian h3 {   margin-right: 5px;}
+	.seling_sec:before {  top: -120px; }
+	.brokerage_Sec_2 .submit_form { width: 273px;	}
+
+	.single-content .recent_1 {  width: 100%; }
+	.high_filter .recent_main { width: 100%; }
+	.recent_1 {  width: 100%; }
+}
+@media screen and (max-width: 408px) {
+.inform_revenue ul li {   margin-right: 12px; text-align: center;}
+.single_business ul li { margin: 0; }
+.inform_rev_img { width: 65px;  height: 65px; background-image: radial-gradient(circle at 45% 45%, #ffffff, #ffffff); }
+.inform_rev_text h6 {  font-size: 13px;}
+.inform_rev_text p { font-size: 15px; }
+}
+
+
+@media screen and (max-width: 320px) {
+	.right_busines_2 .submit_form, .submit_form {
+		width: 100%;
+	}
+	.right_busines_2 .submit_form input[type='email'], .submit_form input[type='email']{
+		width: 78%;
+	}
+	.right_busines_2 .submit_form input[type="submit"], .submit_form input[type="submit"]{
+		width: 27%;
+	}
+	.footer_2 .submit_form input[type="submit"]{
+		width: 20%;
+	}
+	.footer_1 h5 {
+		font-size: 0.9rem;
+	}
+	.inform_rev_text p {
+		font-size: 14px;
+		letter-spacing: .8px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.brokerage_Sec_2 input[type="submit"] {
+		position: absolute;
+		right: 11%;
+	}
+
+	input.js-wpv-filter-trigger-delayed.form-control{
+		width: 71%;
+		position: absolute;
+		left: 10%;
+	}
+
+	div:not(#learn_sidebar).side_content_1{
+		display: none;
+	}
+    
+    section:not(#learn_subheader).brokerage_Sec {
+		display: none;
+	}
+
+	.blue_header {
+		background: rgb(67, 86, 157);
+		/*background: linear-gradient(90deg, rgba(48,77,187,1) 0%, rgba(12,34,118,1) 100%);*/
+	}
+
+	#learn_subheader {
+		background: linear-gradient(90deg, rgba(48,77,187,1) 0%, rgba(12,34,118,1) 100%);
+
+	}
+
+	.learnpage .post-type label {
+		margin: 0; 
+		padding: 10px
+	}
+
+	.post-categories .form-group {
+		padding-left: 5px;
+		padding-top: 31px;
+	}
+
+	.latest_head h1, .latest_head h4 {
+		font-size: 20px;
+		color: #316694;
+		text-transform: uppercase;
+		padding-top: 1.5%;
+	}
+	.latest_update {
+    	padding-top: 0;
+	}
+}
+
+@media (min-width: 768px) {	
+	.filter_head > div {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 359px) {
+	.guide_sec_main .btn {
+		font-size: 0.8em;
+	}
+
+	.irs-min, .irs-max {
+		max-width: 100px;
+		top: 40px;
+	}
+
+	.irs-max {
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.weather_form .sell-headline h1.fs-title {
+		font-size: 2rem;
+	}
+
+	.weather_form .sell-headline h2.fs-title {
+		font-size: 1.8em;
+		margin-bottom: 0;
+	}
+
+	#msform input[type=button] {
+		max-width: 290px;
+	}
+}
+
+@media (max-width: 767px) {
+	div.header_title {
+		align-items: flex-end;
+	}
+
+	div.header_title {
+		display: block;
+	}
+
+	div.hide-on-mobile {
+		display: none;
+	}
+		
+	div.show-on-mobile {
+		display: block;
+	}
+
+	.pagination.view .wpv-pagination-nav-links-item {
+		margin: 0 -1px !important;
+	}
+}
+
+@media (min-width: 993px) {
+    .hight_quality_sec .shortcode-card {
+        width: 49% !important;
+    }
+}
+
+@media (max-width: 1280px) {
+	.shortcode-card .recent_1 {
+		width: 320px;
+	}
+}
+
+@media (max-width: 1197px) {
+	.shortcode-card .recent_1 {
+		width: 310px;
+	}
+}
+
+@media (max-width: 1145px) {
+	.shortcode-card .recent_1 {
+		width: 290px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.shortcode-card .recent_1 {
+		width: 270px !important;
+	}
+}
+
+@media (max-width: 992px) {
+    .hight_quality_sec .shortcode-card {
+        width: 100% !important;
+	}
+	.shortcode-card .recent_1 {
+		width: 370px !important;
+		padding: 50px 50px;
+	}
+}
