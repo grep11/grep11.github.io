@@ -1,0 +1,769 @@
+/*Mark's Edits*/
+
+.what_proces { background-color: #eef5fc; }
+.what_proces_2 img { padding: 0 5em; }
+#breadcrumbs { font-size: 0.8rem; }
+.articles_busines_1 { padding-right:0px;}
+.articles_busines p, .articles_busines_2 p, .articles_busines_2 ul li, .guide-content p, .guide-content ul li, .guide-content ol li {
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+    color: #337ab7;
+}
+.articles_busines_2 ul, .guide-content ul, .guide-content ol, .articles-busines_2 ol {
+    margin: 2rem 3rem;
+    margin-top:0.5rem;
+}
+.articles_busines_2 li, .guide-content ul li {
+    padding:.3rem 0;
+}
+.articles_busines_2 img.alignleft {
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: .5rem;
+}
+.articles_busines_2 img.alignright {
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: .5rem;
+}
+.articles_busines_2 p {
+    font-weight: 300;
+}
+.guide-content .sections_my{
+    margin-top:4rem;
+    padding-top:2rem;
+    border-top:1px solid #ccc
+}
+.guide-content h2, .articles_busines_2 h2, .guide-content h3, .articles_busines_2 h3, .guide-content h4, .articles_busines_2 h4 {
+    color: #316694;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    padding-top:2rem;
+}
+
+.guide-content h3, .articles_busines h3 {
+    color: #2478dc;
+
+}
+
+.guide-content p {
+    margin-top: 20px;
+}
+.guide-content h4, .articles_busines h4 {
+    font-size:2rem !important;
+    line-height: 2rem;
+}
+
+ol#ftwp-list {
+    padding:1.2rem 0 !important ;
+}
+
+blockquote.wp-block-quote{
+    box-shadow: 0 1px 7.5px 0 rgba(27, 49, 124, 0.1);
+    border-radius: 4px;
+    padding:1.5rem;
+
+}
+.wp-block-quote p {
+    font-size:1.8rem;
+    line-height: 2.7rem;
+}
+.wp-block-quote :before, .wp-block-quote :after {
+    font-family: FontAwesome;
+    color: #E8E8E8;
+    font-size: 2.4rem;
+}
+.wp-block-quote p:before {
+    content: "\f10d";
+    margin-right: 13px;
+    right: 100%;
+}
+.wp-block-quote p:after {
+    content: "\f10e";
+    margin-left: 13px;
+    left: 100%;
+}
+
+.wp-block-quote cite {
+    font-size: 1.5em;
+}
+/* David - we will need to update original styling on items below rather than use this CSS as I don't want conflicting styles */
+
+.side_content_2 {
+    border-left: none;
+    padding: 30px 40px 85px;
+}
+
+/*End Mark's Edits */
+
+/*Video Archive Styles*/
+.video_tab_img img {border-radius: 8px;}
+
+.resp-tab-content {
+    border: 0px;
+}
+
+.overlay{
+    position:absolute;
+    left:0;
+    top:0;
+    background: rgba(0,0,0,.5);
+    width:100%;
+    height:100%;
+    border-radius: 8px
+}
+
+.play_btn {z-index: 1;}
+
+.side_filter .drodwn li:hover,
+.post-type-archive-video #menu-item-254007 {
+    background-color: #337ab7;
+}
+
+.side_filter .drodwn li:hover a,
+.post-type-archive-video #menu-item-254007 a {color: #fff}
+
+
+/*Hide side menu for now
+.side_content_1 .get_content {
+	display:none;
+}*/
+
+
+/*Post Styling*/
+
+.post-last-modified {
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: .9em !important;
+    opacity: .8;
+}
+
+.articles_busines_2 p {
+    margin-top: 20px
+}
+
+
+.articles_busines_2 h1,
+.articles_busines_2 h2,
+.articles_busines_2 h3,
+.articles_busines_2 h4,
+.articles_busines_2 h5,
+.articles_busines_2 h6 {
+    margin-bottom: 20px;
+}
+
+.articles_busines_2 h1 {
+    font-size: 40px;
+}
+
+.articles_busines_2 h2, .guide-content h2 {
+    font-size: 32px !important;
+}
+
+.articles_busines_2 h3, .guide-content h3 {
+    font-size: 26px !important;
+}
+
+.articles_busines_2 h4, .guide-content h4 {
+    font-size: 22px !important;
+}
+
+.articles_busines_2 h5 {
+    font-size: 18px;
+}
+
+.articles_busines_2 h6 {
+    font-size: 16px;
+}
+
+
+.latest_update_main .popular_update {
+    padding-top: 0
+}
+
+
+/*Pagination*/
+.pagination {
+    clear: both;
+    position: relative;
+    font-size: 13px;
+    line-height: 13px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.pagination .prev .svg-icon {
+    float:left;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.pagination .next .svg-icon {
+    float:right;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.pagination .dots {float: left; padding: 10px;}
+
+.pagination a:hover span,
+.pagination a:hover svg {color: #fff; fill: #fff}
+
+.pagination .current,
+.pagination a {
+    display:block;
+    float:left;
+    margin: 2px 5px 2px 5px;
+    padding:10px;
+    text-decoration:none;
+    width:auto;
+    font-size:.9em;
+    color:#337ab7; /* Pagination text color */
+    background: #fff; /* Pagination non-active background color */
+    -webkit-transition: background .15s ease-in-out;
+    -moz-transition: background .15s ease-in-out;
+    -ms-transition: background .15s ease-in-out;
+    -o-transition: background .15s ease-in-out;
+    transition: background .15s ease-in-out;
+    border: 1px solid #dddddd;
+    border-radius: 0px
+}
+
+@media (max-width: 767px) {
+    .pagination .current,
+    .pagination a {
+        margin: 2px 0 2px 0;
+    }
+}
+.page-numbers.dots {
+    color: #777777;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    cursor: not-allowed;
+}
+
+.pagination.view {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.pagination a:hover{
+    color:#fff;
+    background: #337ab7; /* Pagination background on hover */
+}
+
+.pagination .current{
+    padding:10px;
+    background: #337ab7; /* Current page background */
+    color:#fff;
+}
+
+
+
+.drodwn li[data-filter=".recently-sold"] {
+    background: #a0dd59;
+    border-color: #a0dd59;
+    color: #fff
+}
+.drodwn li[data-filter=".recently-sold"]:before {
+    content: "\f155";
+    font-family: dashicons;
+    margin-right: 5px;
+    margin-left: -5px
+}
+
+
+.lwptoc_item {
+    margin-bottom: 1em;
+}
+
+/*Gravity Forms*/
+#gform_wrapper_2 .gform_body {
+
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.gform_wrapper input[type=text], .gform_wrapper input[type=tel], .gform_wrapper input[type=email] {
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: none;
+    height: 56px;
+    padding: 10px 15px;
+    font-weight: 600;
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    outline: none;
+    background: transparent;
+    border-radius: 6px;
+    border: solid 1px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 1px 7.5px 0 rgba(27, 49, 124, 0.1);
+}
+
+.gform_wrapper .gform_page_footer {text-align: center;}
+
+.gform_wrapper .gform_page_footer {
+    border-top: 0px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    display: block !important;
+}
+
+.gform_page_footer .button  {
+    width: auto;
+    border: 0px;
+    background: #7fdd17;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px 55px;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+.gfield_label {color: #fff;}
+
+.gfield_select,
+.gform_wrapper .chosen-container-multi .chosen-choices {
+    height: 40px !important;
+}
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {margin: 5px;}
+
+/* gform placeholders*/
+::-webkit-input-placeholder { color:#FFF; font-size:.8em;  }
+:-moz-placeholder { opacity: 1; color:#FFF; font-size:.8em; } /* Firefox 18- */
+::-moz-placeholder { opacity: 1; color:#FFF; font-size:.8em; } /* firefox 19+ */
+:-ms-input-placeholder { color:#FFF; font-size:.8em; } /* ie */
+input:-moz-placeholder { color:#FFF; font-size:.8em; }
+
+.single-post .side_filter {
+    display:none
+}
+/*Pagination Tweaks*/
+.pagination span.separate {padding: 10px}
+
+.single .side_filter {display: none;}
+
+.pod_cont ul,
+.pod_cont h2 {display:none;}
+
+
+.search_icon.white .material-icons {
+    color: #fff
+}
+
+.articles_busines_1 > .featured > img {
+    height: auto;
+    display:none;
+}
+
+.articles_busines_1 .featured img {
+    height: auto;
+}
+
+.inform_price  .rt-reading-time,
+.business_details .rt-reading-time, .def_page .rt-reading-time, .single-advisor .rt-reading-time, .single-video  .rt-reading-time {display: none !important}
+
+
+/*LEARN Section Tweaks*/
+
+.page-learn .brokerage_Sec,
+.post-type-archive-video .brokerage_Sec,
+.post-type-archive-podcast .brokerage_Sec,
+.post-type-archive-guide .brokerage_Sec,
+.blog .brokerage_Sec,
+.single-post .brokerage_Sec,
+.single-video .brokerage_Sec,
+.single-guide .brokerage_Sec,
+.single-podcast .brokerage_Sec
+{
+    background: rgb(48,77,187);
+    background: linear-gradient(90deg, rgba(48,77,187,1) 0%, rgba(12,34,118,1) 100%);
+}
+
+.what_proces {
+    background-image: linear-gradient(-216deg, rgba(184,210,246,0.22) 0%, rgba(254,255,255,0.51) 100%, #F2F4FC 100%);
+}
+
+.luxury_sec {
+    background-image: linear-gradient(-216deg, rgba(184,210,246,0.22) 0%, rgba(254,255,255,0.51) 100%, #F2F4FC 100%);
+}
+
+.saas_busines {
+    background-image: linear-gradient(-216deg, rgba(184,210,246,0.22) 0%, rgba(254,255,255,0.51) 100%, #F2F4FC 100%);
+
+    box-shadow:
+            inset 0px 30px 45px -10px #e6eaf2,
+            inset 0px 0px 8px -10px #e6eaf2;
+
+}
+
+
+
+.post-type-archive-guide .menu-item-253983,
+.post-type-archive-video .menu-item-253983,
+.current_page_item.menu-item-253983,
+.single-post .menu-item-253983,
+.single-guide .menu-item-253983,
+.single-podcast .menu-item-253983,
+.single-video .menu-item-253983,
+.current_page_item.menu-item-253208 {font-weight: 700}
+
+
+
+
+
+
+
+/*Sell Form Tweaks*/
+.form-sec p,
+.form-sec .form-group.fl-r {
+    color: #fff;
+}
+
+.wizard > .content > .body label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.single-listings .menu-item-253982 a {
+    color: #2478DC;
+}
+
+
+
+/*LEARN Page Tweaks*/
+.content-filter .latest_head h4 { margin-bottom: 0; padding-bottom: 0;}
+
+.content-filter label {margin-bottom: 12px;}
+
+.content-filter input[type="radio" ] {
+    position: absolute;
+    left: -9999px;}
+
+
+.content-filter label {display: block;}
+
+.content-filter input[type="radio"]:checked+label {
+    font-weight: bold;
+    color: #337ab7;
+}
+
+.content-filter .post-type,
+.side_filter .post-categories{display: none;}
+
+
+#fb-root
+{display: none !important;}
+
+
+.pagination.view {margin-bottom: 20px;}
+
+.pagination.view .wpv-pagination-nav-links-container .page-link {padding: 10px; margin: 0; }
+
+.pagination.view .wpv-pagination-nav-links-item {margin: 0 5px;}
+.pagination.view .active {background: #337ab7; color: #fff;}
+
+.pagination.view .wpv-pagination-nav-links-item {line-height: 26px;}
+.pagination.view .wpv-pagination-nav-links-container a.page-link:hover {background: #337ab7; color: #fff;}
+
+
+.latest_1:nth-child(1) {
+    margin: 0 !important;
+}
+.latest_1:nth-child(3) {
+    margin: 0 !important;
+}
+
+
+/*NEW LEARN PAGE (with post type filter)*/
+.learnpage .pagination {padding-top: 20px;}
+.learnpage .container1 .row {margin-bottom: 30px}
+.learnpage .content-filter .latest_head h4 { margin-bottom: 0; padding-bottom: 0;}
+
+.learnpage .content-filter label {margin-bottom: 12px;}
+
+/*.learnpage .content-filter input[type="radio" i] { position: absolute; left: -9999px;}*/
+
+.learnpage .content-filter label {display: block;}
+
+.learnpage .content-filter input[type="radio"]:checked+label {
+    font-weight: bold;
+    color: #337ab7;
+}
+
+.learnpage .content-filter .post-type,
+.learnpage .side_filter .post-categories{display: none;}
+
+
+.learnpage .post-type {
+    display:flex;
+}
+@media only screen and (max-width: 767px) {
+    .learnpage .post-type {
+        display:block;
+    }
+}
+
+
+.learnpage .post-type p {align-self:center; margin-right: 20px; line-height: 33px;}
+
+.learnpage .post-type a {
+    display: inline-block;
+    background-color: #fff;
+    color:#4d4d4d;
+    padding: 6px 16px;
+    margin-left:5px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #1c2750;
+    border-radius: 5px;
+    margin-right: 11px;
+    text-transform: uppercase;
+}
+.learnpage .post-type a:hover, .learnpage .post-type a:focus {
+    background-color: #1c2750;
+    color: #fff;
+}
+
+.learnpage .post-type a.active {
+    background-color:#1c2750;
+    border-color: #1c2750;
+    color: #fff;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px){
+    .learnpage .side_filter .post-type {height: 20px;}
+    .learnpage .side_filter.open2 .post-type {height: auto;}
+
+    .learnpage .side_filter.open2 br {display: none;}
+
+    .learnpage .side_filter.open2:blank {
+        display: none;
+    }
+
+
+    .learnpage .post-type p {margin-bottom:10px;}
+
+    .learnpage .post-type a {
+        margin-left: 0;
+        display: none;
+        margin-top:20px;
+        transition: all 0.3s;
+        margin-right:0;
+        padding: 10px;
+    }
+
+    .learnpage .get_content.open2 .post-type a {
+        display: block;
+    }
+
+    .learnpage .post-type a:first-of-type {
+        margin-top:30px;
+    }
+
+}
+
+
+.learnpage .popular_update .container {width: 970px;}
+.popular_update .latest_1:nth-child(1) {
+    margin: 0 !important;
+}
+.learnpage .popular_update .latest_1:nth-child(3) {
+    margin: 0 !important;
+}
+
+
+.learnpage .popular_update .latest_1 {width: 97%;}
+.popular_update .latest_1:nth-child(3n+2) {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .single-listings .saas_busines h3 span {margin-right: 20px}
+}
+
+.wizard>.content>.body label {
+    display: flex !important;
+}
+
+a.advisorname {
+    color: #7EDD17;
+}
+a.advisorname:hover {
+    text-decoration: underline;
+}
+
+.advisor-list .items {
+    margin-bottom: 10px;
+}
+
+.advisor-list .items a:hover {
+    text-decoration: underline;
+}
+
+
+/*Sell Form Mobile*/
+@media only screen and (max-width: 767px) {
+    .wizard>.content {
+        min-height:36em;
+    }
+
+}
+
+
+/*Gravity Form Radios as buttons*/
+
+.ginput_price {
+    display: none;
+}
+
+.gfp_big_button .gfield_radio li input[type=radio] {
+    display:none;
+}
+.gfp_big_button .gfield_radio label {
+    max-width: 300px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px 30px;
+    float: none;
+    background: #f47f26;
+    color: #fff;
+    letter-spacing: 0.09375rem;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    display: block;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+    -webkit-appearance: none;
+    cursor: pointer;
+    line-height: 1;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+    box-sizing: border-box;
+}
+
+.gfp_big_button .gfield_radio label:hover {
+    background: #414142;
+}
+
+.gfp_big_button .gfield_radio input[type=radio]:checked+label {
+    background-color: green;
+}
+
+
+/*Sell Page*/
+#msform .action-button.previous {
+    background: transparent;
+    opacity: .7;
+}
+
+#msform .action-button.previous:hover {
+    opacity: 1
+}
+#msform .action-button.previous:focus{
+    border: 0;
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .hight_quality_sec .container {
+        width: 1330px;
+        max-width: 100%;
+
+    }
+    .hight_quality_sec .single-content {
+        width: 33%;
+    }
+
+    .hight_quality_sec .single-content {
+        text-align: center;
+    }
+}
+
+.tab-panel h2 {
+    text-transform: uppercase;
+}
+
+.entry-content-asset {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.podcast_player {
+    border: none !important;
+}
+
+.advisor-photo {
+    width: auto !important;
+    padding-left:30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    float: right !important;
+}
+
+.ck-button label span {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    border-radius: 0px !important;
+}
+
+.ck-button {
+    background-color: transparent !important;
+    border: solid #7ba5e5;
+    margin-top: 60px !important;
+    margin-bottom: 5px !important;
+    width: 50% !important;
+}
+
+.ck-button:hover {
+    border-color: #911;
+
+}
+
+.articles_busines_2 h4 {
+    padding-bottom: 0;
+}
+
+.brokerage_Sec_2 input[type="submit"] {
+    width: 51px;
+}
+
+.articles_busines_2 img.aligncenter {
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+    input.js-wpv-filter-trigger-delayed.form-control.form-control{
+        width: 72% !important;
+    }
+}
